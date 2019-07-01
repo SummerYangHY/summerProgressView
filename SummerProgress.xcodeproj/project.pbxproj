@@ -15,6 +15,7 @@
 		3C41C45C22C9F59B00AA755E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41C45B22C9F59B00AA755E /* main.m */; };
 		3C41C46622C9F59B00AA755E /* SummerProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41C46522C9F59B00AA755E /* SummerProgressTests.m */; };
 		3C41C47122C9F59B00AA755E /* SummerProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41C47022C9F59B00AA755E /* SummerProgressUITests.m */; };
+		3C41C48022C9F5C000AA755E /* MBProgressHUD+QYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C41C47E22C9F5BF00AA755E /* MBProgressHUD+QYJ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3C41C46C22C9F59B00AA755E /* SummerProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C41C47022C9F59B00AA755E /* SummerProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerProgressUITests.m; sourceTree = "<group>"; };
 		3C41C47222C9F59B00AA755E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C41C47E22C9F5BF00AA755E /* MBProgressHUD+QYJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+QYJ.m"; sourceTree = "<group>"; };
+		3C41C47F22C9F5C000AA755E /* MBProgressHUD+QYJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+QYJ.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3C41C44B22C9F59900AA755E /* SummerProgress */ = {
 			isa = PBXGroup;
 			children = (
+				3C41C47F22C9F5C000AA755E /* MBProgressHUD+QYJ.h */,
+				3C41C47E22C9F5BF00AA755E /* MBProgressHUD+QYJ.m */,
 				3C41C44C22C9F59900AA755E /* AppDelegate.h */,
 				3C41C44D22C9F59900AA755E /* AppDelegate.m */,
 				3C41C44F22C9F59900AA755E /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				3C41C45122C9F59900AA755E /* ViewController.m in Sources */,
 				3C41C45C22C9F59B00AA755E /* main.m in Sources */,
+				3C41C48022C9F5C000AA755E /* MBProgressHUD+QYJ.m in Sources */,
 				3C41C44E22C9F59900AA755E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
